@@ -10,6 +10,7 @@ var users = require('./routes/users');
 var nav = require('./routes/nav');
 var resNav = require('./routes/resNav');
 var ModelBox = require('./routes/ModelBox');
+var click_dropdown = require('./routes/click_dropdown');
 var app = express();
 
 // view engine setup
@@ -29,6 +30,7 @@ app.use('/users', users);
 app.use('/nav', nav);
 app.use('/resNav', resNav);
 app.use('/ModelBox', ModelBox);
+app.use('/click_dropdown',click_dropdown);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
