@@ -1,0 +1,55 @@
+<html>
+<head>
+<link rel="stylesheet" href="/stylesheets/Sticky_Navbar.css"/>
+<script href="/javascripts/Sticky_Navbar.js"></script>
+
+</head>
+<body onscroll="myFunction()">
+<div class="header">
+<h2>Scroll Down</h2>
+<p>Scroll down to see sticky effect.</p>
+</div>
+<div id="navbar">
+  <a class="active" href="#">Home</a>
+  <a href="#">News</a>
+  <a href="#">Contact</a>
+</div>
+<div class="content">
+  <h3>Sticky Navigation Example</h3>
+  <p>The navbar will stick to the top when you reach its scroll position.</p>
+<p>Some text to enable scrolling..<br>
+   Some text to enable scrolling..<br>
+   Some text to enable scrolling..<br>
+   Some text to enable scrolling..<br>
+   Some text to enable scrolling..<br>
+   Some text to enable scrolling..<br>
+   </p>
+   Some text to enable scrolling..<br>
+      Some text to enable scrolling..<br>
+      Some text to enable scrolling..<br>
+      Some text to enable scrolling..<br>
+      Some text to enable scrolling..<br>
+      Some text to enable scrolling..<br>
+      <p>
+      Some text to enable scrolling..<br>
+         Some text to enable scrolling..<br>
+         Some text to enable scrolling..<br>
+         Some text to enable scrolling..<br>
+         Some text to enable scrolling..<br>
+         Some text to enable scrolling..<br>
+         <p>
+<script>
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+</div>
+</body>
+</html>
