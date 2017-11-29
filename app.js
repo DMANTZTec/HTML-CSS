@@ -15,6 +15,7 @@ var Dropdown_Navbar = require('./routes/Dropdown_Navbar');
 var Sticky_Navbar = require('./routes/Sticky_Navbar');
 var parallax = require('./routes/parallax');
 var Scroll_To_Top_Button = require('./routes/Scroll_To_Top_Button');
+var Contact_Section= require('./routes/Contact_Section');
 var app = express();
 
 // view engine setup
@@ -39,6 +40,7 @@ app.use('/Dropdown_Navbar',Dropdown_Navbar);
 app.use('/Sticky_Navbar',Sticky_Navbar);
 app.use('/parallax',parallax);
 app.use('/Scroll_To_Top_Button',Scroll_To_Top_Button);
+app.use('/Contact_Section',Contact_Section);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
