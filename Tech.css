@@ -1,0 +1,29 @@
+.crad{
+    background-size: cover;
+    height:100vh;
+    background-image: url("OIP.jpeg")
+}
+
+.head{
+    font-family: monospace;
+    font-size: 35px;
+    font-weight: 200;
+    text-decoration: none;
+}
+.card{
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.button{
+    height:30px;
+    width: 80px;
+    border-radius: 5px;
+    border-width: 0px;
+    color: white;
+    background-color: aqua;
+    border-style: dashed;
+  
+}
