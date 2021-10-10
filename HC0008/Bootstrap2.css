@@ -1,0 +1,16 @@
+.image{
+    background-image: url("C:/Users/ADMIN_4/Desktop/bird.jpeg");
+    background-size: cover;
+    height: 100vh;
+    padding: 0px;
+}
+.bcard{
+    background-color: pink;
+    text-align: center;
+    padding: 20px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+   
+}
