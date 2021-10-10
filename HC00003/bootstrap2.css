@@ -1,0 +1,13 @@
+.image{
+    background-image: url("C:/Users/admin/Downloads/laptops.jpeg");
+    background-size: cover;
+    height: 100vh;
+    padding: 0px;
+}
+.lcard{
+    background-color: gray;
+    text-align: center;
+    padding: 50px;
+    border-radius: 50px;
+    
+}
