@@ -1,0 +1,21 @@
+.bg-container{
+    background-image: url("detail.jpeg");
+    background-size: cover;
+    height: 100vh;
+    
+}
+.h1{
+    color: white;
+    font-family: fantasy;
+    font-size: 30px;
+    padding: 10px;
+}
+.card-cotainer{
+    background-color: white;
+    height:50vh;
+    margin: 25px;
+}
+.text-card-container{
+    background-color: white;
+    padding: 10px;
+}
