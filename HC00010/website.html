@@ -1,0 +1,93 @@
+<!Doctype html>
+<html>
+<head>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+   
+    </head>
+     <link rel="stylesheet" href="website.css">
+    <body>
+    <div id="sectionHome">
+        <div class="bg-container d-flex flex-column justify-content-end">
+        <div class='tourism-card'>
+           <h1 class="main-heading">Tourism</h1>
+             <p class="paragrph">Plan Your Trip</p>
+               <button class="button" onclick="display('sectionFavoritePlaces')">Get Started</button> </div>
+           </div>
+        </div>
+        <div id="sectionFavoritePlaces">                              
+            <div class="favourite-place-bg-container">
+        <h1 class="favourite-place-heading">Favourite Places</h1>
+        <div class="favourite-place-card-container d-flex flex-row ">
+        <div>
+            <h1 class="favourite-place-card-heading">Taj Mahal</h1>
+            <p class="favourite-place-card-description">if there was just one symbol to represent all of India,it the Taj Mahal.It was in the year 1628 that Shah Jhan became the Emperor and entrusted Arjuma Banu with the royal seal...
+        </div>
+            <img src="down.jpeg" class="favourite-place-card-image">
+        </div>
+        <div class="favourite-place-card-container d-flex flex-row ">
+        <div>
+            <h1 class="favourite-place-card-heading">Golden Temple</h1>
+            <p class="favourite-place-card-description">Amritsaris world famous for the beautiful and highly revered Golden Templehe Golden Temple Amritsar India (Sri Harimandir Sahib Amritsar) is not only a central religious place of the Sikhs, but also a symbol of human brotherhood and equality.Everybody, irrespective of cast, creed or race can seek spiritual solace andreligious fulfilment without any hindrance. It also represents the distinct identity, glory and heritage of the Sikhs
+        </div>
+            <img src="golden%20temple.jpg"class="favourite-place-card-image">
+        </div>
+         <div class="favourite-place-card-container d-flex flex-row ">
+        <div>
+        <h1 class="favourite-place-card-heading">Mysore Palace</h1>
+        <p class="favourite-place-card-description">The Mysore Palace is a historical palace ana the residence at     Mysore.Mysore Palace was built in the year 1912 for the 24th Ruler of the Wodeyar Dynasty and is counted amongst one of the biggest palaces in the country. The construction of the Mysore Palace was orchestrated by the Maharaja Krishnaraja Wadiyar IV referred as "Rajarishi" (saintly king) by Mahatma Gandhi.
+        </div>
+        <img src="mysore.jpeg" class="favourite-place-card-image" onclick="display('section)">
+        </div>
+        <button class="btn btn-dark" onclick="display('sectionHome')">
+            back
+        </button>
+     </div>
+     </div>
+        <div id="sectionTajMahalDetaiedview">
+         <div class="bg-container">
+            <h1 class="h1">Detailed view</h1>
+            <div class="card-container">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-c1-img.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-c2-img.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-c3-img.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+          
+       <div class="text-card-container">
+           <h1> Taj Mahal</h1>
+           <p>
+               The Taj Mahal: Symbol of India, architectural jewel, and monument to a grand passion. Built in the 17th century by the Great Mogul Shah Jahan in honor of Mumtaz Mahal, the love of his life. Before she died, legend says, Mumtaz Mahal made a wish for a mausoleum, more sublime than any the world had seen. Built on the banks of the Yamuna River in Agra, it is said to have required over 20,000 workers including the best craftsmen of the Empire. Millions of bricks were baked on site only to disappear forever under flawless white marble. A heavenly memorial to the Queen of the World, or as a poet described it: "A teardrop on the cheek of time". A love poem set in stone and the most perfect building in the world.
+           </p>
+                
+         </div>
+            </div>
+             </div>
+             </div></div>
+               
+     
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script> 
+    </body>
+</html>
