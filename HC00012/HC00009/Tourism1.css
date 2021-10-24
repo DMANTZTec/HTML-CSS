@@ -1,0 +1,35 @@
+.favourite-place-bg-container{
+    background-image: url("tourism1.jpeg");
+    background-size: cover;
+    height: 100vh;
+}
+.favourite-place-heading{
+    font-family: "Robotto";
+    font-size: 20px;
+    font-weight: 100px;
+    padding: 10px;
+    
+}
+.favourite-place-card-container{
+   background-color: white;
+    border-radius: 8px;
+    padding: 24px;
+    margin: 10px;
+    
+}
+.favourite-place-card -description{
+    color: dimgrey;
+    font-family: monospace;
+    font-size: 10px;
+}
+ .favourite-place-card -heading{
+    color: #0f0e46;
+    font-family: "Robotto";
+    font-size: 23px;
+    font-weight: bold;
+} 
+.favourite-place-card-image{
+    height: 100px;
+    width:100px;
+}
+    

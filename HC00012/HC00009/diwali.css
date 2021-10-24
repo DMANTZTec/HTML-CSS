@@ -1,0 +1,47 @@
+.diwali-top-section
+{
+    background-image: url("diwali.jpeg");
+    height: 45vh;
+    background-size: cover;
+    
+}
+.h1{
+    font-family: sans-serif;
+    font-size: 25px;
+    color: white;
+    width: 200px;
+    padding: 10px; 
+    font-style: italic;
+}
+.diwali-bottom-section{
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+   
+}
+.diwali-card-item{
+    text-align: center;
+    background-color: white;
+    width: 200px;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+.image{
+    height: 80px;
+    width: 80px;
+}
+.card-name{
+    font-family: "Robotto";
+    font-size: 20px;
+    font-style: "italic";
+    color: brown;
+}
+.card-price{
+    font-style: "Robotto";
+    font-size: 10px;
+    color:
+}
+    
+

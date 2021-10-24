@@ -1,0 +1,26 @@
+.bg-container{
+    background-image: url("down.jpeg");
+    background-size: cover;
+    height: 100vh;
+}
+.tourism-card{
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    
+}
+.main-heading{
+    font-family: "Robotto";
+}    
+.button {
+    color: white;
+    background-color: aquamarine;
+    width: 138px;
+    height: 36px;
+    border-width: 0px;
+    border-radius: 20px;
+}
+.paragraph{
+    font-family: "Robotto";}

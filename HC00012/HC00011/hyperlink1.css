@@ -1,0 +1,24 @@
+.profile {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 30px;
+}
+
+.image {
+  width: 200px;
+  margin: 30px;
+}
+
+.heading {
+  font-size: 24px;
+}
+
+.awards {
+  background-color: #f7fbff;
+  padding: 20px;
+}
+
+.bio {
+  background-color: #ffffff;
+  padding: 20px;
+}

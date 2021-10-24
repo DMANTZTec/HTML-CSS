@@ -1,0 +1,82 @@
+.bg-container{
+    background-image: url("down.jpeg");
+    background-size: cover;
+    height: 100vh;
+}
+.tourism-card{
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    
+}
+.main-heading{
+    font-family: "Robotto";
+}    
+.button {
+    color: white;
+    background-color: aquamarine;
+    width: 138px;
+    height: 36px;
+    border-width: 0px;
+    border-radius: 20px;
+}
+.paragraph{
+    font-family: "Robotto";}
+.favourite-place-bg-container{
+    background-image: url("tourism1.jpeg");
+    background-size: cover;
+    height: 100vh;
+}
+.favourite-place-heading{
+    font-family: "Robotto";
+    font-size: 20px;
+    font-weight: 100px;
+    padding: 10px;
+    
+}
+.favourite-place-card-container{
+   background-color: white;
+    border-radius: 8px;
+    padding: 24px;
+    margin: 10px;
+    
+}
+.favourite-place-card -description{
+    color: dimgrey;
+    font-family: monospace;
+    font-size: 10px;
+}
+ .favourite-place-card -heading{
+    color: #0f0e46;
+    font-family: "Robotto";
+    font-size: 23px;
+    font-weight: bold;
+} 
+.favourite-place-card-image{
+    height: 100px;
+    width:100px;
+}
+    
+.bg-container{
+    background-image: url("detail.jpeg");
+    background-size: cover;
+    height: 100vh;
+    
+}
+.h1{
+    color: white;
+    font-family: fantasy;
+    font-size: 30px;
+    padding: 10px;
+}
+.card-cotainer{
+    background-color: white;
+    height:50vh;
+    margin: 25px;
+}
+.text-card-container{
+    background-color: white;
+    padding: 10px;
+}
