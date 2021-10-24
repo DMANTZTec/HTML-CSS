@@ -1,0 +1,62 @@
+#navItem1{
+    color: #ebeef0;
+    font-family: "Robotto";
+}
+#navItem2{
+    color: #e7ecf0;
+    font-family: "Robotto";
+}
+#navItem3{
+    color: #ebeef0;
+    font-family: "Robotto";
+}
+#navItem4{
+    color: #ebeef0;
+    font-family: "Robotto";
+}
+.food-munch-image{
+    height: 40px;
+    width: 40px;
+}
+.banner-section-bg-container{
+    background-image: url("foodmunch.jpeg");
+    height: 100vh;
+    background-size: cover;
+}
+.banner-heading{
+    color:white;
+    font-family: "Robotto";
+    font-size: 50px;
+    font-weight: 300;
+    padding: 15px;
+    
+}
+.banner-caption{
+    color: azure;
+    font-family: "Robotto";
+    font-size: 30px;
+    font-weight: 300;
+    padding: 10px;
+}
+.custom-button{
+    color: white;
+    border-radius: 10px;
+    border-width: 0px;
+    border-style: solid;
+    height: 40px;
+    width: 110px;
+    margin-right: 10px;
+}
+.custom-outline-button{
+   width: 130px;
+   height: 45px;
+   color: #d0b200;
+   background-color: transparent;
+   border-style: solid;
+   border-color: #d0b200;
+   border-radius: 8px;
+   padding: 10px;
+}
+.banner{
+    padding: 40px;
+}
