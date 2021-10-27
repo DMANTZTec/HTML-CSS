@@ -1,0 +1,14 @@
+h1 {
+    color: grey;
+    font-family: "Roboto";
+    font-size: 22px;
+  }
+  .heading {
+    color: blue;
+    font-weight: bold;
+  }
+  #heading5 {
+   color: green;
+   font-size: 28px;
+   font-style: italic;
+  }
