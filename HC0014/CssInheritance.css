@@ -1,7 +1,13 @@
 .container{
+    border-width: 2px ;
+    border-color: rgb(0, 153, 255);
+    border-style: solid;
     color: rgb(255, 127, 206);
     text-align: center;
 }
 .border{
+    color: blueviolet;
     border-width: 20px;
+    border-style: solid;
+    border-color: black;
 }
