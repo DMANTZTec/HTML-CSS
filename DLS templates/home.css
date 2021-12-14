@@ -1,0 +1,15 @@
+.image-section{
+    background-image: url("Dmantztech.jpeg");
+    height: 50vh;
+    background-size: cover;
+}
+.card-image{
+    border-radius: 10px;
+    
+}
+.fixed-footer
+{
+    bottom: 0;
+    background-color: black;
+    height:100px;
+}
