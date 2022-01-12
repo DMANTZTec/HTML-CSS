@@ -1,0 +1,39 @@
+body {
+    img{
+      display: flex;
+      margin-left: -200px;
+      padding: 10px;
+      height: 75px;
+      width: 286px ;
+    }
+    h2 {
+        position: fixed;
+        margin-left: 8rem;
+        padding: 3px;
+        font-size: 35px;
+        display:flex;
+        top: 10px;
+        font-family: 'Arial';
+          c {
+            color : red;    
+            cursor: pointer;
+             }
+    };
+    nav {
+        a{
+           font-size: 25px;
+           margin-left: 210px;
+           font-family: 'Courier New', Courier, monospace;
+           background-color: rgb(252, 246, 246);
+           border-radius: 40px;
+           opacity: 0.5;
+        }
+    }
+   .modelheader {
+     background: #F7941E;
+     color: white;
+   }
+
+     
+  }
+

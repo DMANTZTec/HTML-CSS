@@ -1,0 +1,41 @@
+body img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -200px;
+  padding: 10px;
+  height: 75px;
+  width: 286px;
+}
+
+body h2 {
+  position: fixed;
+  margin-left: 8rem;
+  padding: 3px;
+  font-size: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 10px;
+  font-family: 'Arial';
+}
+
+body h2 c {
+  color: red;
+  cursor: pointer;
+}
+
+body nav a {
+  font-size: 25px;
+  margin-left: 210px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #fcf6f6;
+  border-radius: 40px;
+  opacity: 0.5;
+}
+
+body .modelheader {
+  background: #F7941E;
+  color: white;
+}
+/*# sourceMappingURL=myworklog.css.map */

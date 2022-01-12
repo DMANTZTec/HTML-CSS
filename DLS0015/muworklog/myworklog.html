@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="../dist/css/myworklog.css">
+</head>
+<body>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div>
+                      <img src="./img/logo2.png" alt="logo">
+                    </div>
+                </div>
+           
+               <div class="col-md-9">
+                   <div>
+                       <h2><c>D</c>MANTZ<c>&nbsp;L</c> ERANING <c> &nbsp;S</c>YSTEM</h2>
+                    </div>
+               </div>
+            </div>
+        </div> 
+        <div> 
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">CourseCatalog <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active" href="#">MyCourses</a>
+                    <a class="nav-item nav-link active" href="#">MyWorklog</a>
+                    </div>
+                </div>
+              </nav>
+        </div> 
+        <div class="container mt-4 mx-2 my-2">
+          <!-- Trigger the modal with a button -->
+        <button type="button" class="btn btn-primary " data-toggle="modal" data-target="#myModal">New Task</button>
+
+      <!-- Modal -->
+      <div id="myModal" class="modal">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">New Task</h4>
+                <button type="button" class="btn-close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <label class="form-label">Course Id:</label><br>
+                <input type="text" class="form-control" ><br>
+                <label class="form-label">Module Id:</label><br>
+                <input  type="text" class="form-control"><br>
+                <label class="form-label">Topic Id</label><br>
+                <input type="text" class="form-control"><br>
+                <label class="form-label">Task Id</label><br>
+                <input  type="text" class="form-control"><br>
+                <label class="form-label">Topic Name</label><br>
+                <input  type="text" class="form-control"><br>
+                <label class="form-label">Start Date</label><br>
+                <input  type="text" class="form-control"><br>
+                <label class="form-label">Expected hours</label><br>
+                <input  type="text" class="form-control"><br>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success">Add</button>
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+   </div>
+        </div>
+        <div>
+          <table class="table text-center table-bordered">
+           <thead>
+             <tr>
+                <th>Task Id</th>
+                <th>Module </th>
+                <th>TopicName </th>
+                <th>Course</th>
+                <th>StartDate</th>
+                <th>Hour's Spent</th>
+                <th>Expected Hours</th>
+                <th>Current Issues</th>
+                <th >Actions</th>
+             </tr>
+            </thead>
+            <tbody>
+              <tr>
+                  <td>SN002021</td>
+                  <td>Arrays</td>
+                  <td>Basics</td>
+                  <td>Java</td>
+                  <td>11-01-2021</td>
+                  <td>5</td>
+                  <td>10</td>
+                  <td>None</td>
+                  <td >
+                    <button class="btn btn-success badge-pill">END</button>
+                    <button class="btn btn-danger badge-pill">DELETE</button>
+                    <button type="button" class="btn btn-primary badge-pill" data-toggle="modal" data-target="#exampleModal">Hr's<span>🡡</span></button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Hours</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <form>
+                              <label class="form-label">Hours</label><br>
+                              <input type="text" class="form-control" ><br>
+                              <label class="form-label">Start Date</label><br>
+                              <input  type="text" class="form-control"><br>
+                              <label class="form-label">Current Issues</label><br>
+                              <input  type="text" class="form-control"><br>
+                              
+                            </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+               
+                  </td>
+               </tr>
+              <td>SN002021</td>
+              <td>Arrays</td>
+              <td>Basics</td>
+              <td>Java</td>
+              <td>11-01-2021</td>
+              <td>5</td>
+              <td>10</td>
+              <td>None</td>
+              <td >
+                <button class="btn btn-success badge-pill">END</button>
+                <button class="btn btn-danger badge-pill">DELETE</button>
+               <!-- <button class="btn btn-primary badge-pill">Hr's<span>🡡</span></button>-->
+              <button type="button" class="btn btn-primary badge-pill" data-toggle="modal" data-target="#exampleModal">Hr's<span>🡡</span></button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Hours</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <form>
+                              <label class="form-label">Hours</label><br>
+                              <input type="text" class="form-control" ><br>
+                              <label class="form-label">Start Date</label><br>
+                              <input  type="text" class="form-control"><br>
+                              <label class="form-label">Current Issues</label><br>
+                              <input  type="text" class="form-control"><br>
+                              
+                            </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+               
+              </td>
+            </tr>
+            <td>SN002021</td>
+            <td>Arrays</td>
+            <td>Basics</td>
+            <td>Java</td>
+            <td>11-01-2021</td>
+            <td>5</td>
+            <td>10</td>
+            <td>None</td>
+            <td >
+              <button class="btn btn-success badge-pill">END</button>
+              <button class="btn btn-danger badge-pill">DELETE</button>
+              <button type="button" class="btn btn-primary badge-pill" data-toggle="modal" data-target="#exampleModal">Hr's<span>🡡</span></button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Hours</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <label class="form-label">Hours</label><br>
+                        <input type="text" class="form-control" ><br>
+                        <label class="form-label">Start Date</label><br>
+                        <input  type="text" class="form-control"><br>
+                        <label class="form-label">Current Issues</label><br>
+                        <input  type="text" class="form-control"><br>
+                        
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+         
+            </td>
+          </tr>
+          <td>SN002021</td>
+          <td>Arrays</td>
+          <td>Basics</td>
+          <td>Java</td>
+          <td>11-01-2021</td>
+          <td>5</td>
+          <td>10</td>
+          <td>None</td>
+          <td>
+            <button class="btn btn-success badge-pill">END</button>
+            <button class="btn btn-danger badge-pill">DELETE</button>
+            <button type="button" class="btn btn-primary badge-pill" data-toggle="modal" data-target="#exampleModal">Hr's<span>🡡</span></button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Hours</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <label class="form-label">Hours</label><br>
+                      <input type="text" class="form-control" ><br>
+                      <label class="form-label">Start Date</label><br>
+                      <input  type="text" class="form-control"><br>
+                      <label class="form-label">Current Issues</label><br>
+                      <input  type="text" class="form-control"><br>
+                      
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+       
+          </td>
+        </tr>
+        </tbody>
+     </table>
+    <div>
+        
+</body>
+</html>
