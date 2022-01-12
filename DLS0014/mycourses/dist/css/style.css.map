@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAKQ,IALJ,CAIA,EAAE,CACE,CAAC,CAAA;EACG,KAAK,EAAG,GAAG;EACnB,MAAM,EAAE,OAAO;CACV",
+    "sources": [
+        "../../coursecatalog/style.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}

@@ -1,0 +1,38 @@
+body img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -200px;
+  padding: 10px;
+  height: 75px;
+  width: 286px;
+}
+
+body h2 {
+  position: fixed;
+  margin-left: 8rem;
+  padding: 3px;
+  font-size: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 10px;
+  font-family: 'Arial';
+}
+
+body h2 c {
+  color: red;
+  cursor: pointer;
+}
+
+body nav a {
+  font-size: 25px;
+  margin-left: 100px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body .javatable {
+  margin-left: 20px;
+  margin-top: 100px;
+}
+/*# sourceMappingURL=mycourses.css.map */

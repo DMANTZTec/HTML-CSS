@@ -1,0 +1,61 @@
+body {
+    img{
+      display: flex;
+      margin-left: -105px;
+      padding: 10px;
+      height: 75px;
+      width: 286px ;
+    }
+    h2 {
+        position: fixed;
+        margin-left: 3rem;
+        padding: 6px;
+        font-size: 35px;
+        display:flex;
+        top: 10px;
+        font-family: 'Arial';
+          c {
+            color : red;    
+            cursor: pointer;
+             }
+    };
+    nav {
+        a{
+           font-size: 25px;
+           margin-left: 100px;
+           font-family: 'Courier New', Courier, monospace;
+        }
+    }
+    .sidenav {
+        left: 0px;
+        padding: 0;
+        width: 260px;
+        background-color: #f1f1f1;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+        header {
+            font-size: 30px;
+            text-align: left;
+        }
+    
+        a {
+            display: block;
+            color: black;
+            padding: 16px;
+            text-decoration: none;
+            }
+            a:hover {
+                background-color: rgb(16, 17, 17);
+                color:#f1f1f1;
+            }
+    };
+    .javatable {
+        margin-left: -135px;
+        margin-top: 100px;
+        
+    };
+   
+    
+        
+}
